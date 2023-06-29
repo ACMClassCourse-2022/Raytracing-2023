@@ -118,17 +118,9 @@ Just do some preparation work, including:
     - Chapter 10, 15, 16... the more, the better.
     - Maybe at first you just know how to write a `Hello World` program or how to output the first image in the book, as long as you can complete the current task, it is enough.
 
-#### Task1 (20pt)
-
-Complete the first book, which is the easiest one.
-
-#### Task2 (20pt)
-
-Complete the second book.
-
-#### Task3 (30pt)
-
-Complete the third book.
+#### Task1 (20pt) : *Ray Tracing In One Weekend*
+#### Task2 (20pt) : *Ray Tracing: The Next Week*.
+#### Task3 (30pt) : *Ray Tracing: The Rest of Your Life*.
 
 #### Basic Requirements (20pt)
 
@@ -151,3 +143,8 @@ Complete the third book.
     - An `obj-loader` is needed.
     - Polygons are supported (Maybe ?).
 - Some [CG-related techniques](./doc/CG-bonus.md).
+
+### Others
+
+- You should have a document recording all the bonus you have done. For each bonus, you should show the code or the effect of your work.
+- There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why.
