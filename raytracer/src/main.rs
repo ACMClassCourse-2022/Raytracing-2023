@@ -4,7 +4,7 @@ use indicatif::ProgressBar;
 use std::{fs::File, process::exit};
 
 fn main() {
-    let path = "output/image1.jpg";
+    let path = "output/book1/image1.jpg";
 
     let width = 256;
     let height = 256;
