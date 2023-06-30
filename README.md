@@ -17,7 +17,7 @@ Most of your jobs are just reading and trying to understand the books, and imple
 
 #### Installation
 
-In linux and MacOS systems, you can install Rust with the following command:
+In `linux` and `MacOS` systems, you can install Rust with the following command:
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh
@@ -143,6 +143,11 @@ Just do some preparation work, including:
     - An `obj-loader` is needed.
     - Polygons are supported (Maybe ?).
 - Some [CG-related techniques](./doc/CG-bonus.md).
+
+### Assignments
+
+- The above tasks are all assignments for ACM students.
+- For students in SEIEE CS, you are supposed to finish `Task0 (0pts)`, `Task1(40pts)` and `Task2(50pts)`, `Task3(10pts)` is bonus.
 
 ### Others
 
