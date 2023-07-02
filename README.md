@@ -1,5 +1,6 @@
 # Summer-Ray-Tracer
 SJTU ACM Honor Class 2023 Ray Tracer Project With Rust !
+![](./doc/assets/image-raytracing.png)
 
 **Before you start, please read this README carefully**, there is no useless information in this document.
 
@@ -150,6 +151,7 @@ Just do some preparation work, including:
 #### Task 5 (10 pts) : Final scene
 
 - Complete a final scene, which should be more complex than the scenes in the books. If your work looks pretty or has aesthetic value, you will get extra points.
+- Or, your final scene can just be a logo of our project : `Ray Tracing`. Look at the current logo at the top of this page, you can make a better one, with your own ray tracer.
 
 #### Task 6 (10 pts) : Code review
 
@@ -174,5 +176,3 @@ Just do some preparation work, including:
 - You should have a document recording all the bonus you have done. For each bonus, you should show the code or the effect of your work.
 - There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why.
 - There will be 2 students to do presentations for ACM Class and SEIEE CS. They will get extra points based on their presentations, no more than 10 points.
-
-![](./doc/assets/image-raytracing.png)
