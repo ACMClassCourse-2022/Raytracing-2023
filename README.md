@@ -106,7 +106,7 @@ By the way, `output` folder can be generated automatically by `Github Actions`.
 
 ### Tasks
 
-#### Task0 (0pt)
+#### Task 0 : Preparation
 
 Just do some preparation work, including:
 
@@ -118,24 +118,26 @@ Just do some preparation work, including:
     - Chapter 10, 15, 16... the more, the better.
     - Maybe at first you just know how to write a `Hello World` program or how to output the first image in the book, as long as you can complete the current task, it is enough.
 
-#### Task1 (20pt) : *Ray Tracing In One Weekend*
-#### Task2 (20pt) : *Ray Tracing: The Next Week*.
-#### Task3 (30pt) : *Ray Tracing: The Rest of Your Life*.
+#### Task 1 (20 pts) : *Ray Tracing In One Weekend*
 
-#### Basic Requirements (20pt)
+- Complete the first book.
+- Save each output image in the `output` folder.
 
-- Provide each book's output images in the `output` folder. Finally, you should upload the `output` folder to `Github`.
-- Pass the checks in `Github Actions`, including (already included in `run.yml`):
-    - `cargo fmt --all -- --check`
-    - `cargo clippy --all -- -D warnings`
-    - `cargo test --all`
-    - `cargo build --all --release`
-    - `cargo run --all --release`
-- Each image output commit should be tagged, if tagged, `run.yml` settings will run your code and generate the output images. You should **let us directly see the output images (a '.zip' file) in the `Github Actions` page**.
-- Complete a final scene, which should be more complex than the scenes in the books. If your work looks pretty or has aesthetic value, you will get extra points.
-- Write a simple report about the PDF method in the third book, at least 2 pages.
+#### Task 2 (20 pts) : *Ray Tracing: The Next Week*
 
-#### Bonus (10pt)
+- Complete the second book.
+- Save each output image in the `output` folder.
+
+#### Task 3 (30 pts) : *Ray Tracing: The Rest of Your Life*
+
+- Complete the third book.
+- Save each output image in the `output` folder.
+
+- Write a simple report about the PDF method in this book, at least 2 pages.
+
+
+#### Task 4 (10 pts) : Advanced features
+
 - Multi-threading to accelerate your ray tracer.
 - Exploring some [rust features](./doc/rust-bonus.md).
 - Make a benchmark for your ray tracer. 
@@ -143,13 +145,34 @@ Just do some preparation work, including:
     - An `obj-loader` is needed.
     - Polygons are supported (Maybe ?).
 - Some [CG-related techniques](./doc/CG-bonus.md).
+- Some other interesting features. Please contact TAs if you have any ideas.
+
+#### Task 5 (10 pts) : Final scene
+
+- Complete a final scene, which should be more complex than the scenes in the books. If your work looks pretty or has aesthetic value, you will get extra points.
+
+#### Task 6 (10 pts) : Code review
+
+### Basic Requirements
+
+- Remember to provide each book's generated images. Finally, you should upload the `output` folder to `Github`.
+- Pass the checks in `Github Actions`, including (already included in `run.yml`):
+    - `cargo fmt --all -- --check`
+    - `cargo clippy --all -- -D warnings`
+    - `cargo test --all`
+    - `cargo build --all --release`
+    - `cargo run --all --release`
+- Each image output commit should be tagged, if tagged, `run.yml` settings will run your code and generate the output images. You should **let us directly see the output images (a '.zip' file) in the `Github Actions` page**.
 
 ### Assignments
 
-- The above tasks are all assignments for ACM students.
-- For students in SEIEE CS, you are supposed to finish `Task0 (0pts)`, `Task1(40pts)` and `Task2(50pts)`, `Task3(10pts)` is bonus.
+- For students in ACM Class, you are supposed to finish all tasks above.
+- For students in SEIEE CS, you are supposed to finish `Task0`, `Task1 (40pts)`, `Task2 (40pts)`, `Task3 (10pts)` and `Task5 (10pts)`.
 
 ### Others
 
 - You should have a document recording all the bonus you have done. For each bonus, you should show the code or the effect of your work.
 - There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why.
+- There will be 2 students to do presentations for ACM Class and SEIEE CS. They will get extra points based on their presentations, no more than 10 points.
+
+![](./doc/assets/image-raytracing.png)
