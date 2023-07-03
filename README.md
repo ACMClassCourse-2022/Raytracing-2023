@@ -154,7 +154,7 @@ Just do some preparation work, including:
 #### Task 5 (10 pts): Final scene
 
 - Complete a final scene, which should be more complex than the scenes in the books. If your work looks pretty or has aesthetic value, you will get extra points
-- Or, your final scene can just render our project name `Ray Tracing`. Look at the current banner at the top of this page, you can make a better one, with your own ray tracer
+- Or, your final scene can just be a banner or a logo of our project `Ray Tracing`. Look at the current banner at the top of this page, you can make a better one, with your own ray tracer
 
 #### Task 6 (10 pts): Code review
 
@@ -193,6 +193,6 @@ Just do some preparation work, including:
 
 ### More Tips
 
-- You should have a document recording all the bonus you have done. For each bonus, you should show the code or a benchmark of your work
-- There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why you need it in code review
-- There will be 2 students to do presentations for ACM Class and SEIEE CS. They will get extra points based on their presentations, no more than 10 points
+- You should have a document recording all the bonus you have done. For each bonus, you should show the code or a benchmark of your work.
+- There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why you need it in code review.
+- There will be 2 students to do presentations for ACM Class and SEIEE CS. They will get extra points based on their presentations, no more than 10 points.
