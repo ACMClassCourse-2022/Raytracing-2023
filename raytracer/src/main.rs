@@ -4,7 +4,9 @@ use indicatif::ProgressBar;
 use std::{fs::File, process::exit};
 
 fn main() {
-    let path = "image1.jpg";
+    let path = std::path::Path::new("output/book1/image1.jpg");
+    let prefix = path.parent().unwrap();
+    std::fs::create_dir_all(prefix).expect("Cannot create all the parents");
 
     let width = 256;
     let height = 256;
@@ -30,7 +32,10 @@ fn main() {
     }
     progress.finish();
 
-    println!("Ouput image as \"{}\"", style(path).yellow());
+    println!(
+        "Ouput image as \"{}\"",
+        style(path.to_str().unwrap()).yellow()
+    );
     let output_image = image::DynamicImage::ImageRgb8(img);
     let mut output_file = File::create(path).unwrap();
     match output_image.write_to(&mut output_file, image::ImageOutputFormat::Jpeg(quality)) {
