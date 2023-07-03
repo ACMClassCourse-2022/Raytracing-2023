@@ -1,6 +1,8 @@
-# Summer-Ray-Tracer
-SJTU ACM Honor Class 2023 Ray Tracer Project With Rust !
 ![](./doc/assets/image-raytracing.png)
+
+# Summer-Ray-Tracer
+
+SJTU ACM Honor Class 2023 Ray Tracer Project With Rust !
 
 **Before you start, please read this README carefully**, there is no useless information in this document.
 
@@ -168,8 +170,25 @@ Just do some preparation work, including:
 
 ### Assignments
 
-- For students in ACM Class, you are supposed to finish all tasks above.
-- For students in SEIEE CS, you are supposed to finish `Task0`, `Task1 (40pts)`, `Task2 (40pts)`, `Task3 (10pts)` and `Task5 (10pts)`.
+- For students in ACM Class:
+  - You are supposed to finish all tasks above.
+  - Recommended schedule:
+    - **Day 1:**  Task 0: Environment setup
+    - **Day 2 - 3:** Task 0: Learn Rust
+    - **Day 4 - 6:** Task 1
+    - **Day 7 - 9:** Task 2
+    - **Day 10 - 12:** Task 3
+    - **Day 13 - 19:** Task 4 & 5
+    - **Day 20:** Pre & Task 6
+
+- For students in SEIEE CS:
+  - You are supposed to finish `Task0`, `Task1 (40pts)`, `Task2 (40pts)`, `Task5 (10pts)` and `Task6 (10pts)`.
+  - Recommended schedule:
+    - **Day 1:**  Task 0: Environment setup
+    - **Day 2 - 3:** Task 0: Learn Rust
+    - **Day 4 - 6:** Task 1 & 5
+    - **Day 7 - 9:** Task 2 & 5
+    - **Day 10:** Pre & Task 6
 
 ### Others
 
