@@ -133,23 +133,27 @@ Just do some preparation work, including:
 - Complete [the second book](https://raytracing.github.io/books/RayTracingTheNextWeek.html)
 - Save each output image in the `output` folder.
 
-#### Task 3 (30 pts) : *Ray Tracing: The Rest of Your Life*
+#### Task 3 (20 pts) : *Ray Tracing: The Rest of Your Life*
 
 - Complete [the third book](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)
 - Save each output image in the `output` folder
 
 - Write a simple report about the PDF method in this book, at least 2 pages
 
-#### Task 4 (10 pts): Advanced features
+#### Task 4 (20 pts): Advanced features
 
-- Multi-threading to accelerate your ray tracer
-- Exploring some [rust features](./doc/rust-bonus.md)
+- Multi-threading to accelerate your ray tracer (strongly recommended)
 - Make a benchmark for your ray tracer
 - Support for `.obj` file
-    - An `obj-loader` is needed
-    - Polygons are supported (optional)
-- Some [CG-related techniques](./doc/CG-bonus.md)
+  - An `obj-loader` is needed
+  - Polygons are supported (optional)
+- CG-related techniques
+  - Edge detection, normal mapping, interpolation, texture mapping, rasterization, etc.
+  - Lens flare, depth of field, axis shift, exposure, etc.
+  - Read interesting books(e.g. 《Unity Shader 入门精要》) and implement other fancy features
+- Exploring some [Rust features](./doc/rust-bonus.md)
 - Some other interesting features. Please contact TAs if you have any ideas
+- You can refer to [artworks in raytracer-2022](./doc/artworks-2022.md)
 
 #### Task 5 (10 pts): Final scene
 
@@ -168,6 +172,7 @@ Just do some preparation work, including:
     - `cargo build --all --release`
     - `cargo run --all --release`
 - Each image output commit should be tagged, if tagged, `run.yml` settings will run your code and generate the output images. You should **let us directly see the output images (a '.zip' file) in the `Github Actions` page**
+- You should have a document recording all the bonus you have done briefly. For each bonus, you should show the code or a benchmark of your work.
 
 ### Assignments
 
@@ -193,6 +198,6 @@ Just do some preparation work, including:
 
 ### More Tips
 
-- You should have a document recording all the bonus you have done. For each bonus, you should show the code or a benchmark of your work.
+- You may need to use `cargo run --release` to accelerate the precedure.
 - There is no restriction on unsafe code, if you think it is necessary, you can use it, and explain why you need it in code review.
 - There will be 2 students to do presentations for ACM Class and SEIEE CS. They will get extra points based on their presentations, no more than 10 points.
